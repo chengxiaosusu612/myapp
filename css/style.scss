@@ -1,0 +1,53 @@
+html{
+  font-size: 100px;
+  #main{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top:0;
+      bottom:0;
+      overflow: hidden;
+      background: #f00;
+      header{
+          position: absolute;
+          left: 0;top:0;
+          width: 100%;
+          height: .44rem;
+          text-align: center;
+          line-height: .44rem;
+          background: #00f;
+          z-index: 11;
+          h1{
+              color: #fff;
+          }
+      }
+      section{
+         position: absolute;
+         left: 0;
+         right: 0;
+         top:0;
+         bottom:0;
+         overflow: hidden;
+         background: #ff0;
+         margin-top: 44px;
+         margin-bottom: 44px;
+         overflow-y: scroll; 
+         ul li{
+            height: 50px; 
+         }
+      }  
+        footer{
+          position: absolute;
+          left: 0;bottom:0;
+          width: 100%;
+          height: .44rem;
+          text-align: center;
+          line-height: .44rem;
+          background: #00f;
+           z-index: 11;
+          h1{
+              color: #fff;
+          }
+      }
+  }  
+}

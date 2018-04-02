@@ -1,0 +1,199 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html {
+	font-size: 100px;
+}
+
+html #main {
+	width: 100%;
+	font-size: .1rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+html #main header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 2.8rem;
+}
+
+html #main header .hd_bg {
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+}
+
+html #main header .topHeader .lv_left {
+	/*display: block;
+	width: 100%;
+	height: 2.8rem;*/
+}
+
+html #main section {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	overflow: hidden;
+	background: #fff;
+	margin-top: 2.8rem;
+	margin-bottom: 44px;
+	overflow-y: scroll;
+	width: 100%;
+}
+
+
+/*优惠券*/
+
+html #main section .youhuijuan {
+	width: 100%;
+}
+
+html #main section .youhuijuan img {
+	display: block;
+	width: 7.10rem;
+	height: 1.6rem;
+	margin: .33rem auto;
+}
+
+html #main section .lv_bar1,
+.lv_bar2 {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+html #main section .lv_bar1 {
+	margin-top: .13rem;
+}
+
+html #main section .lv_bar2 {
+	margin-top: .49rem;
+	margin-bottom: .38rem;
+}
+
+html #main section .lv_bar1 li,
+.lv_bar2 li {
+	flex: 1;
+	width: 20%;
+	text-align: center;
+}
+
+html #main section .lv_bar1 li img,
+.lv_bar2 li img {
+	display: block;
+	width: .96rem;
+	height: .96rem;
+	margin: 0 auto;
+}
+
+html #main section .lv_bar1 li span,
+.lv_bar2 li span,
+.tuijian li span {
+	display: block;
+	margin-top: .14rem;
+	font-size: .24rem;
+}
+
+
+/*灰色边*/
+
+html #main section .gray {
+	background: #f5f5f5;
+	width: 100%;
+	height: 0.22rem;
+	margin-top: 0.38rem;
+	border-top: solid 1px #bfbfbf;
+	border-bottom: solid 1px #bfbfbf;
+}
+
+
+/*心动日本模块*/
+
+html #main section .japanNav {
+	display: flex;
+	width: 100%;
+	height: 2.04rem;
+	border-bottom: solid 1px #bfbfbf;
+}
+
+html #main section .japanNav .getOut {
+	flex: 0.056;
+	height: 1.89rem;
+	background: #009ee1;
+	color: white;
+	font: .26rem/.38rem "微软雅黑";
+	text-align: center;
+	padding-top: .15rem;
+}
+
+html #main section .japanNav .tuijian {
+	flex: 0.944;
+	font-size: 24px;
+	display: flex;
+	text-align: center;
+	padding-left: .48rem;
+	padding-top:.37rem;
+}
+
+html #main section .japanNav .tuijian li:nth-of-type(2) {
+	/*flex: 1;*/
+	margin:0 .7rem;
+}
+html #main section .japanNav .tuijian li:nth-of-type(3) {
+	/*flex: 1;*/
+	margin-right:.85rem;
+}
+html #main section .tuijian li img {
+	display: block;
+	width: 1.05rem;
+	height: .99rem;
+}
+/*日本模块内容*/
+html #main section .japanCon{
+	width:100%;
+	height: 5.24rem;
+}
+
+/*底部*/
+
+html #main footer {
+	font-size: .1rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: .5rem;
+	text-align: center;
+	/*line-height: .5rem;*/
+	z-index: 11;
+	overflow: hidden;
+	display: flex;
+	border-top: solid 1px #EDEDED;
+	background: white;
+}
+
+html #main footer a {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: #aaaaaa;
+}
+
+html #main footer img {
+	width: .22rem;
+	height: .20rem;
+	margin: 0.09rem 0 0 0.27rem;
+}
